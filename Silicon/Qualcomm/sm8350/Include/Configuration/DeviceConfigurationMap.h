@@ -31,7 +31,7 @@ static CONFIGURATION_DESCRIPTOR_EX gDeviceConfigurationDescriptorEx[] = {
     {"EnableUfsIOC", 1},
     {"EnableVariablePolicyEngine", 0},
     {"EUDEnableAddr", 0x88E2000},
-    {"InitialPagePoolCount", 0x900},
+    {"InitialPagePoolCount", 0x700}, // Adjusted for r9q
     {"MaxCoreCnt", 8},
     {"MaxLogFileSize", 0x400000},
     {"MinidumpTALoadingCfg", 0x0},
@@ -42,7 +42,7 @@ static CONFIGURATION_DESCRIPTOR_EX gDeviceConfigurationDescriptorEx[] = {
     {"Sdc1GpioConfigOn", 0x1E92},
     {"Sdc2GpioConfigOff", 0xA00},
     {"Sdc2GpioConfigOn", 0x1E92},
-    {"SecurityFlag", 0x1C4},
+    {"SecurityFlag", 0xC4}, // Adjusted for r9q
     {"SharedIMEMBaseAddr", 0x146BF000},
     {"ShmBridgememSize", 0xA00000},
     {"SmcInvokeConfig", 0x20040100},
